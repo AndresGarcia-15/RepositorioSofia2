@@ -1,9 +1,8 @@
-import Formulariocita from "./form/formulariocita";
-import Bill from "./form/bill";
-import Laboratory from "./form/laboratory";
+import Formulariocita from "./formulariocita";
+import Bill from "./bill";
+import Laboratory from "./laboratory";
 import { NavLink } from "react-router-dom";
-import Diagnostic from "./form/diagnostic";
-import HistorialM from "./form/historialM";
+import Diagnostic from "./diagnostic";
 const Blocks = () => {
 
   return (
@@ -22,17 +21,12 @@ const Blocks = () => {
         
             </div>
           </div>
-          <div className="p-5 lg:w-1/4  hover:border-2 border-black  ">
-            <div className="h-full bg-azulmarino bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative  hover:bg-slate-400 ;">
-            <img src="https://cdn-icons-png.flaticon.com/512/404/404042.png" alt="Logo " className="w-36 m-auto  "  />
-            <button className="text-3xl mt-3">
-            <HistorialM></HistorialM>
-            </button>
-            
-                
-        
-            </div>
-          </div>
+          
+
+
+
+
+
           <div className="p-5 lg:w-1/4 hover:border-2 border-black">
             <div className="h-full bg-azulmarino bg-opacity-75 py-5 px-8  rounded-lg overflow-hidden text-center relative  hover:bg-slate-400">
             <img src="https://cdn-icons-png.flaticon.com/512/33/33819.png" alt="Logo " className="w-36 mt-10 ml-8   "  />

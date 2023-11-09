@@ -3,7 +3,6 @@ import Bill from "./form/bill";
 import Laboratory from "./form/laboratory";
 import { NavLink } from "react-router-dom";
 import Diagnostic from "./form/diagnostic";
-import HistorialM from "./form/historialM";
 const Blocks = () => {
 
   return (

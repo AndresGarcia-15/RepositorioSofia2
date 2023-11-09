@@ -4,7 +4,7 @@ import Contact from "./components/pages/Contac";
 import Not_found from "./components/pages/404";
 import About from "./components/pages/about";
 import Home from "./components/pages/Home";
-import FrequentQ from "./components/pages/FrequentQ";
+import FrequentQ from "./components/pages/frequentQ";
 
 function App() {
   return (
