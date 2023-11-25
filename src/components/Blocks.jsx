@@ -4,6 +4,7 @@ import Laboratory from "./form/laboratory";
 import { NavLink } from "react-router-dom";
 import Diagnostic from "./form/diagnostic";
 import HistorialM from "./form/historialM";
+import View from "./form/view";
 const Blocks = () => {
 
   return (
@@ -69,10 +70,15 @@ const Blocks = () => {
             <nav>
             <NavLink className="text-3xl mt-3" to="/FrequentQ">FREQUENT QUESTIONS</NavLink>
             </nav>
+            </div>
+          </div>
+          <div className="p-5 lg:w-1/4  hover:border-2 border-black  ">
+            <div className="h-full bg-azulmarino bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative  hover:bg-slate-400 ;">
+            <img src="https://cdn-icons-png.flaticon.com/512/404/404042.png" alt="Logo " className="w-36 m-auto  "  />
+            <button className="text-3xl mt-3">
+            <View></View>
+            </button>
             
-
-              
-              
             </div>
           </div>
         </div>
